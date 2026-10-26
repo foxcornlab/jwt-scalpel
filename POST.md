@@ -1,4 +1,4 @@
-# jwt-scalpel — offline JWT security scanner
+# jwt-scalpel, offline JWT security scanner
 
 I kept running into JWTs during engagements and wanted one offline tool
 that answers "is this token weak?" in a second. So I built one.
@@ -18,7 +18,7 @@ $ ./jwtscalpel.py -f token.txt
 ```
 
 Single Python file, zero dependencies, 12 tests green.
-Exit codes: 0 clean, 1 findings, 2 errors — pipes straight into CI.
+Exit codes: 0 clean, 1 findings, 2 errors, pipes straight into CI.
 
 Repo: https://github.com/foxcornlab/jwt-scalpel
 

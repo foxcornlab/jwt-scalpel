@@ -1,7 +1,7 @@
 # jwt-scalpel
 
 Offline JWT security scanner. Hand it a token, get back everything wrong
-with it — algorithm confusion surface, guessable HMAC secrets, injectable
+with it, algorithm confusion surface, guessable HMAC secrets, injectable
 `kid`, untrusted `jku`/`x5u` key URLs, and lifetime problems. Nothing
 leaves the machine.
 
@@ -57,4 +57,4 @@ to test.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE).
