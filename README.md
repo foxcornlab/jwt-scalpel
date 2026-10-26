@@ -42,6 +42,10 @@ $ ./jwtscalpel.py -f weak.txt
 [LOW] no exp claim: token never expires; theft is permanent
 ```
 
+## In action
+
+![demo](demo.png)
+
 ## What it checks
 
 - `alg=none` tokens and none-stripping surface
