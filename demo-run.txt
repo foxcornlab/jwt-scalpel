@@ -1,0 +1,6 @@
+$ ./jwtscalpel.py -f token.txt
+[HIGH] suspicious kid: kid '../../etc/passwd' looks injectable (path/SQL traversal)
+[HIGH] weak HMAC secret: signature verifies with secret 'secret'
+[MEDIUM] alg confusion surface: a stripped alg=none variant parses cleanly; reject 'none' server-side
+[INFO] symmetric alg HS256: HS* algs fall to secret guessing; tested 15 candidate secrets
+exit=1
